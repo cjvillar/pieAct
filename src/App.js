@@ -5,7 +5,7 @@ function App() {
   return (
     <PaginatedTable
       url="https://www.cjvillarreal.com/amazon-pie-scrapper/pie_price.json"
-      itemsPerPage={5}
+      itemsPerPage={4}
 
     />
     
