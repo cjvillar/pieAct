@@ -29,7 +29,10 @@ useEffect(() => {
 
   return (
     <div>
-      <div class="glitch" data-text="ラズベリーパイ"><sub class="sub">by: CHRIS</sub></div>
+      <div class="glitch" data-text="ラズベリーパイ"><sub class="sub">by: chris</sub></div>
+      <br></br>
+      <br></br>
+
       {/* <h1>ラズベリーパイ<sub class="sub">by: CHRIS</sub></h1> */}
       <img src={vapor_comp} alt="vaporwave" class="center"></img>
       <h2>日付: {dateOut}</h2>
@@ -62,6 +65,7 @@ useEffect(() => {
           </button>
         ))}
       </div>
+      
     </div>
   );
 }
