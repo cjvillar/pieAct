@@ -29,10 +29,10 @@ useEffect(() => {
 
   return (
     <div>
-        <div class="glitch" data-text="ラズベリーパイ"></div>
-        <h1>ラズベリーパイ<sub class="sub">by: CHRIS</sub></h1>
-        <img src={vapor_comp} alt="vaporwave" class="center"></img>
-        <h2>日付: {dateOut}</h2>
+      <div class="glitch" data-text="ラズベリーパイ"><sub class="sub">by: CHRIS</sub></div>
+      {/* <h1>ラズベリーパイ<sub class="sub">by: CHRIS</sub></h1> */}
+      <img src={vapor_comp} alt="vaporwave" class="center"></img>
+      <h2>日付: {dateOut}</h2>
       <table>
         <thead>
           <tr>
@@ -60,8 +60,6 @@ useEffect(() => {
           >
             {page}
           </button>
-          
-          
         ))}
       </div>
     </div>
