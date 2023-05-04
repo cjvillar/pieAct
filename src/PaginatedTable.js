@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import vapor_comp from './vapor_comp.gif'; 
 
 function PaginatedTable({ itemsPerPage }) {
   const [currentPage, setCurrentPage] = useState(1);
@@ -28,6 +29,8 @@ useEffect(() => {
 
   return (
     <div>
+        <h1>ラズベリーパイ</h1>
+        <img src={vapor_comp} alt="vaporwave"></img>
         <h2>Date: {dateOut}</h2>
       <table>
         <thead>
@@ -57,6 +60,7 @@ useEffect(() => {
         ))}
       </div>
     </div>
+   
   );
 }
 

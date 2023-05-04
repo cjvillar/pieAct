@@ -6,11 +6,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+*/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+} 
 
 body {
   background-color: #ff00bb;
@@ -20,9 +20,13 @@ body {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: "Courier New", Courier, monospace;
   color: #e5dde5;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #ee0dee;
 }
 
 a {
@@ -39,6 +43,7 @@ a:hover {
 
 table {
   border-collapse: collapse;
+  background-color: #000000;
 }
 
 td, th {
