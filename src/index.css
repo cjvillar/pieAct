@@ -41,6 +41,7 @@ a {
   text-decoration: none;
   border-bottom: 1px dashed #00ffff;
   padding-bottom: 2px;
+  margin-right: 20px;
 }
 
 a:hover {
@@ -124,52 +125,31 @@ button:active {
   box-shadow: none;
 }
 
-
 @media (max-width: 768px) {
   body {
     background-color: #ff00ff;
   }
   
   .background-text {
-    font-size: 30px;
+    font-size: 5px;
   }
 }
 
-/* test glitch */
-/* .glitch, .glow {
-  color: #dfbfbf;
-  position: relative;
-  font-size: 3vw;
-  animation: glitch 5s 5s infinite;
+.footer {
+  background-color: #121313;
+  color: #f3d407;
+  border: 1px solid #18eb57;
+  border-radius: 2px;
+  font-family: "MS Sans Serif", sans-serif;
+  font-size: 8px;
+  padding: 8px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.75);
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 50px;
 }
-.glitch::before, .glow::before {
-  content: attr(data-text);
-  position: absolute;
-  left: -2px;
-  text-shadow: -5px 0 magenta;
-  background: black;
-  overflow: hidden;
-  top: 0;
-  animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
-}
-.glitch::after, .glow::after {
-  content: attr(data-text);
-  position: absolute;
-  left: 2px;
-  text-shadow: -5px 0 lightgreen;
-  background: black;
-  overflow: hidden;
-  top: 0;
-  animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
-}
-@keyframes glitch {
-  1% {
-    transform: rotateX(10deg) skewX(90deg);
- }
-  2% {
-    transform: rotateX(0deg) skewX(0deg);
- }
-} */
 
 .glitch, .glow {
   color: #dfbfbf;
