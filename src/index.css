@@ -136,7 +136,7 @@ button:active {
 }
 
 /* test glitch */
-.glitch, .glow {
+/* .glitch, .glow {
   color: #dfbfbf;
   position: relative;
   font-size: 3vw;
@@ -169,7 +169,57 @@ button:active {
   2% {
     transform: rotateX(0deg) skewX(0deg);
  }
+} */
+
+.glitch, .glow {
+  color: #dfbfbf;
+  position: relative;
+  font-size: 3em;
+  animation: glitch 5s 5s infinite;
 }
+
+.glitch::before, .glow::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -1em;
+  text-shadow: -5px 0 magenta;
+  background: black;
+  overflow: hidden;
+  top: 0;
+  animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+}
+
+.glitch::after, .glow::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 1em;
+  text-shadow: -5px 0 lightgreen;
+  background: black;
+  overflow: hidden;
+  top: 0;
+  animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  .glitch, .glow {
+    font-size: 2em;
+  }
+  .glitch::before, .glow::before,
+  .glitch::after, .glow::after {
+    left: 0.5em;
+  }
+}
+
+@keyframes glitch {
+  1% {
+    transform: rotateX(10deg) skewX(90deg);
+  }
+  2% {
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+/* leave */
 @keyframes noise-1 {
   3.3333333333% {
     clip-path: inset(62px 0 18px 0);
