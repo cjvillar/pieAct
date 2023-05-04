@@ -17,7 +17,7 @@ body {
   background-image: url("bg.svg");
   background-repeat: repeat;
   color: #f3eaf3;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Sans MS", Courier, sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
@@ -78,6 +78,34 @@ img {
   background-repeat: no-repeat;
   pointer-events: none;
 }
+
+button {
+  background-color: #cdc7c7;
+  color: #171616;
+  border: 2px solid #101010;
+  border-radius: 4px;
+  font-family: "MS Sans Serif", sans-serif;
+  font-size: 12px;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+button:hover {
+  background-color: #666666;
+  color: #131111;
+  border: 2px solid #666666;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+button:active {
+  background-color: #BFBFBF;
+  color: #000000;
+  border: 2px solid #BFBFBF;
+  box-shadow: none;
+}
+
 
 @media (max-width: 768px) {
   body {

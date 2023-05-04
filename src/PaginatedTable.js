@@ -31,7 +31,7 @@ useEffect(() => {
     <div>
         <h1>ラズベリーパイ</h1>
         <img src={vapor_comp} alt="vaporwave"></img>
-        <h2>Date: {dateOut}</h2>
+        <h2>日付: {dateOut}</h2>
       <table>
         <thead>
           <tr>
