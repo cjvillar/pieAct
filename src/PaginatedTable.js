@@ -48,8 +48,10 @@ useEffect(() => {
           ))}
         </tbody>
       </table>
+      <br/>
       <div>
         {Array.from({ length: maxPages }, (_, i) => i + 1).map((page) => (
+         
           <button
             key={page}
             onClick={() => setCurrentPage(page)}
@@ -57,6 +59,8 @@ useEffect(() => {
           >
             {page}
           </button>
+          
+          
         ))}
       </div>
     </div>

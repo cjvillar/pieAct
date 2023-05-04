@@ -80,29 +80,31 @@ img {
 }
 
 button {
-  background-color: #cdc7c7;
-  color: #171616;
-  border: 2px solid #101010;
-  border-radius: 4px;
+  background-color: #121313;
+  color: #f3d407;
+  border: 1px solid #18eb57;
+  border-radius: 2px;
   font-family: "MS Sans Serif", sans-serif;
   font-size: 12px;
-  padding: 5px 10px;
+  padding: 8px 15px;
   text-align: center;
   text-transform: uppercase;
-  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.75); */
+  margin-right: 8px;
+  margin-bottom: 20px;
 }
 
 button:hover {
-  background-color: #666666;
-  color: #131111;
-  border: 2px solid #666666;
+  background-color: #0ce755;
+  color: #f2f1e6;
+  border: 2px solid #e408bc;
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
 }
 
 button:active {
-  background-color: #BFBFBF;
+  background-color: #e1ecee;
   color: #000000;
-  border: 2px solid #BFBFBF;
+  border: 2px solid #096792;
   box-shadow: none;
 }
 
