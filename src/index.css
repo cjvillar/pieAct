@@ -24,9 +24,16 @@ h2, h3, h4, h5, h6 {
   font-family: "Courier New", Courier, monospace;
   color: #e5dde5;
 }
+
 h1 {
   font-family: "Courier New", Courier, monospace;
   color: #ee0dee;
+}
+
+.sub {
+  font-family: "MS Sans Serif", sans-serif;
+  font-size: 8px;
+  color: #00ffff;
 }
 
 a {
@@ -53,8 +60,17 @@ td, th {
 
 img {
   border: 5px solid #00ff00;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 5px 5px 5px #000000;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
 }
 
 .background-text {
