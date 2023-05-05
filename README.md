@@ -1,6 +1,13 @@
 # Getting Started 
+![action_working](https://github.com/cjvillar/pieAct/actions/workflows/run_test.yml/badge.svg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## To run locally after cloning:
+
+`run npm install`
+
+`npm start`
 
 ## Available Scripts
 
@@ -19,6 +26,9 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm coverage`
+Shows the test coverage.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -29,6 +39,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## npm run deploy
-Run to deploy on github pages
+## `npm run deploy`
+
+To deploy on github pages
+
+
 
