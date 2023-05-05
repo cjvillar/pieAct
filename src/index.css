@@ -34,6 +34,7 @@ h1 {
   font-family: "MS Sans Serif", sans-serif;
   font-size: 8px;
   color: #00ffff;
+  
 }
 
 a {
@@ -133,6 +134,12 @@ button:active {
   .background-text {
     font-size: 5px;
   }
+}
+
+.header {
+  padding: 10px 10px;
+  margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 .footer {
