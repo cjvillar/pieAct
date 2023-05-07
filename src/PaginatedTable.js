@@ -12,7 +12,7 @@ useEffect(() => {
       setJsonData(data);
     }
     fetchData();
-  }, []);
+  });
 
   if (!jsonData) {
     return <div>Loading...</div>;
