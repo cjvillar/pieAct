@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 
-function PaginatedTable({ itemsPerPage }) {
+function PaginatedTable({ itemsPerPage, url }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [jsonData, setJsonData] = useState(null);
  
 
 useEffect(() => {
     async function fetchData() {
-      const response = await fetch('https://www.cjvillarreal.com/amazon-pie-scrapper/pie_price.json');
+      const response = await fetch(url);
       const data = await response.json();
       setJsonData(data);
     }
     fetchData();
-  }, []);
+  });
 
   if (!jsonData) {
     return <div>Loading...</div>;
