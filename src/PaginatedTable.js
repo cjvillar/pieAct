@@ -24,7 +24,8 @@ useEffect(() => {
   const endIndex = startIndex + itemsPerPage;
   const currentData = jsonData.Pies.slice(startIndex, endIndex);
   const theDate = new Date(jsonData.Date);
-  const dateOut = theDate.getDate() + "\\" +  (theDate.getMonth()+1) + "\\" + theDate.getFullYear();
+  const dateOut =  theDate.getMonth()+1 + "\\" +  (theDate.getUTCDate()) + "\\" + theDate.getFullYear(); 
+ 
 
   return (
     <div>
