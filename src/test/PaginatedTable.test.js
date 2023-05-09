@@ -47,7 +47,7 @@ describe('PaginatedTable', () => {
     expect(loadingMessage).toBeInTheDocument();
 
     const dateElement = await screen.findByText(/日付:/i);
-    expect(dateElement).toHaveTextContent('日付: 5\\5\\2023');
+    expect(dateElement).toHaveTextContent('日付: 5\\9\\2035');
 
     // const priceElements = screen.getAllByRole('row', { name: /price product/i });
     // expect(priceElements).toHaveLength(1);

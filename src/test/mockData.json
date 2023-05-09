@@ -1,21 +1,34 @@
 {
-    "Date": "2023-05-05T06:23:21.118Z",
-    "Pies": [
-       {
-          "Price": "$5",
-          "Product": "'Apple Pie'"
-       },
-       {
-          "Price": "$4",
-          "Product": "Blueberry Pie"
-       }, 
-       {
-          "Price": "$8.99",
-          "Product": "'Pumpkin Pie'"
-        },
-        {
-          "Price": "$3.99",
-          "Product": "Raspberry Pie"
-         }
-        ]
-  }
+   "Date": "2035-05-09T21:16:56.394Z",
+   "AMZ": [
+      {
+         "ID": "AMZ0",
+         "Price": "$145.39",
+         "Product": "Apple Pie"
+      },
+      {
+         "ID": "AMZ1",
+         "Price": "$169.99",
+         "Product": "Pumpkin Pie"
+      },
+      {
+         "ID": "AMZ2",
+         "Price": "$189.99",
+         "Product": "Raspberry Pie"
+      }
+     
+   ],
+   "CANAKIT": [
+      {
+         "ID": "CANAKIT0",
+         "Price": "$139.95",
+         "Product": "Peach Pie"
+      },
+      {
+         "ID": "CANAKIT1",
+         "Price": "$149.95",
+         "Product": "Choco Pie"
+      }
+     
+   ]
+}
