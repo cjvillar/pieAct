@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import LineGraph from './priceTrack';
 
 function PaginatedTable({ itemsPerPage, url }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [jsonData, setJsonData] = useState(null);
   const [currentDataset, setCurrentDataset] = useState('AMZ');
+  const [showGraph, setShowGraph] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
@@ -24,6 +26,11 @@ function PaginatedTable({ itemsPerPage, url }) {
   const currentData = jsonData[currentDataset].slice(startIndex, endIndex);
   const theDate = new Date(jsonData.Date);
   const dateOut =  theDate.getMonth()+1 + "\\" +  (theDate.getUTCDate()) + "\\" + theDate.getFullYear(); 
+  
+  const toggleGraph = () => {
+    setShowGraph(!showGraph);
+  }
+
 
   return (
     <div>
@@ -31,6 +38,18 @@ function PaginatedTable({ itemsPerPage, url }) {
       <div>
         <button onClick={() => setCurrentDataset('AMZ')} disabled={currentDataset === 'AMZ'}>AMZ</button>
         <button onClick={() => setCurrentDataset('CANAKIT')} disabled={currentDataset === 'CANAKIT'}>CANAKIT</button>
+        <button onClick={toggleGraph}>
+        {showGraph ? 'Hide Price Graph' : 'Show Price Graph'}
+        </button>
+        {showGraph && <LineGraph
+        data={[
+          { date: '2023-01-09T21:16:56.394Z', price: "$115.39" },
+          { date: '2023-02-09T21:16:56.394Z', price: "$125.39" },
+          { date: '2023-03-09T21:16:56.394Z', price: "$135.39" },
+          { date: '2023-04-09T21:16:56.394Z', price: "$155.39" }
+        ]}
+      />}
+      <br></br>
       </div>
       <table>
         <thead>
