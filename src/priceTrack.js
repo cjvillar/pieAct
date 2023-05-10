@@ -24,7 +24,7 @@ const LineGraph = () => {
         labels: data.map(item => item.Date),
         datasets: [
           {
-            label: 'Ave Raspberry Pi Price (more-or-less)',
+            label: 'Avg. Raspberry Pi Price (more-or-less)',
             data: data.map(item => item.AveragePrice),
             fill: true,
             borderColor: 'rgb(75, 192, 192)',
