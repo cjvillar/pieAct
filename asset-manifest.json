@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pieAct/static/css/main.faaa8d66.css",
-    "main.js": "/pieAct/static/js/main.6efe1c0f.js",
+    "main.css": "/pieAct/static/css/main.39bfb606.css",
+    "main.js": "/pieAct/static/js/main.a169919c.js",
     "static/js/787.b8b4a7f7.chunk.js": "/pieAct/static/js/787.b8b4a7f7.chunk.js",
     "static/media/vapor_comp.gif": "/pieAct/static/media/vapor_comp.0840be5e22a0ec5afbbc.gif",
     "static/media/cursor.svg": "/pieAct/static/media/cursor.9bf4dbe62f23121e8329.svg",
     "static/media/bg.svg": "/pieAct/static/media/bg.1edc29efc23168dbf3b4.svg",
     "index.html": "/pieAct/index.html",
-    "main.faaa8d66.css.map": "/pieAct/static/css/main.faaa8d66.css.map",
-    "main.6efe1c0f.js.map": "/pieAct/static/js/main.6efe1c0f.js.map",
+    "main.39bfb606.css.map": "/pieAct/static/css/main.39bfb606.css.map",
+    "main.a169919c.js.map": "/pieAct/static/js/main.a169919c.js.map",
     "787.b8b4a7f7.chunk.js.map": "/pieAct/static/js/787.b8b4a7f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faaa8d66.css",
-    "static/js/main.6efe1c0f.js"
+    "static/css/main.39bfb606.css",
+    "static/js/main.a169919c.js"
   ]
 }
