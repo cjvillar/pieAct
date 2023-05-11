@@ -5,6 +5,7 @@ import 'chartjs-adapter-date-fns';
 const LineGraph = () => {
   const chartRef = useRef(null);
   const [data, setData] = useState([]);
+  
 
   useEffect(() => {
     fetch('https://www.cjvillarreal.com/amazon-pie-scrapper/avePie.json')
@@ -19,9 +20,15 @@ const LineGraph = () => {
 
   useEffect(() => {
     let chartInstance = null;
+
     if (chartRef.current && data.length) {
+        const dateOut = data.map(item => {
+            const theDate = new Date(item.Date);
+            return theDate.toISOString().substring(0, 10);
+          });
+            
       const chartData = {
-        labels: data.map(item => item.Date),
+        labels: dateOut,
         datasets: [
           {
             label: 'Avg. Raspberry Pi Price (more-or-less)',
