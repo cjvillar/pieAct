@@ -155,7 +155,7 @@ button:active {
 
 @media (max-width: 768px) {
   body {
-    background-color: #ff00ff;
+    background-color: #2A363B;
   }
   
   .background-text {
@@ -192,7 +192,7 @@ button:active {
   animation: glitch 5s 5s infinite;
 }
 
-.glitch::before, .glow::before {
+/* .glitch::before, .glow::before {
   content: attr(data-text);
   position: absolute;
   left: -1em;
@@ -212,9 +212,9 @@ button:active {
   overflow: hidden;
   top: 0;
   animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .glitch, .glow {
     font-size: 2em;
   }
@@ -222,19 +222,19 @@ button:active {
   .glitch::after, .glow::after {
     left: 0.5em;
   }
-}
+} */
 
-@keyframes glitch {
+/* @keyframes glitch {
   1% {
     transform: rotateX(10deg) skewX(90deg);
   }
   2% {
     transform: rotateX(0deg) skewX(0deg);
   }
-}
+} */
 
 /* leave */
-@keyframes noise-1 {
+/* @keyframes noise-1 {
   3.3333333333% {
     clip-path: inset(62px 0 18px 0);
  }
@@ -442,7 +442,7 @@ button:active {
   to {
     transform: translate(0px, 2%);
  }
-}
+} */
 .glow {
   text-shadow: 0 0 1000px #dfbfbf;
   color: transparent;
