@@ -34,7 +34,8 @@ function PaginatedTable({ itemsPerPage, url }) {
 
   return (
     <div>
-      <h2>日付: {dateOut}</h2>
+      {/* <h2>日付: {dateOut}</h2> */}
+      <h2>Date: {dateOut}</h2>
       <div>
         <button onClick={() => setCurrentDataset('AMZ')} disabled={currentDataset === 'AMZ'}>AMZ</button>
         <button onClick={() => setCurrentDataset('CANAKIT')} disabled={currentDataset === 'CANAKIT'}>CANAKIT</button>
@@ -49,7 +50,7 @@ function PaginatedTable({ itemsPerPage, url }) {
           { date: '2023-04-09T21:16:56.394Z', price: "$155.39" }
         ]}
       />}
-      <br></br>
+      {/* <br></br> */}
       </div>
       <table>
         <thead>
