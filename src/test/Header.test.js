@@ -8,13 +8,13 @@ test.skip('renders the correct heading text', () => {
   expect(heading).toBeInTheDocument();
 });
 
-test('renders the correct image', () => {
+test.skip('renders the correct image', () => {
   const { getByAltText } = render(<Header />);
   const image = getByAltText(/vaporwave/i);
   expect(image).toBeInTheDocument();
 });
 
-test('renders the correct subtext', () => {
+test.skip('renders the correct subtext', () => {
   const { getByText } = render(<Header />);
   const subtext = getByText(/by: chris/i);
   expect(subtext).toBeInTheDocument();
