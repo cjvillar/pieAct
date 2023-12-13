@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/pieAct/static/css/main.39bfb606.css",
-    "main.js": "/pieAct/static/js/main.c48c67a2.js",
+    "main.css": "/pieAct/static/css/main.89fed9a5.css",
+    "main.js": "/pieAct/static/js/main.58780c23.js",
     "static/js/787.b8b4a7f7.chunk.js": "/pieAct/static/js/787.b8b4a7f7.chunk.js",
-    "static/media/vapor_comp.gif": "/pieAct/static/media/vapor_comp.0840be5e22a0ec5afbbc.gif",
+    "static/media/rasberrypi.svg": "/pieAct/static/media/rasberrypi.9277f289aa2e146ce39d9bf8ace0a184.svg",
     "static/media/cursor.svg": "/pieAct/static/media/cursor.9bf4dbe62f23121e8329.svg",
-    "static/media/bg.svg": "/pieAct/static/media/bg.1edc29efc23168dbf3b4.svg",
     "index.html": "/pieAct/index.html",
-    "main.39bfb606.css.map": "/pieAct/static/css/main.39bfb606.css.map",
-    "main.c48c67a2.js.map": "/pieAct/static/js/main.c48c67a2.js.map",
+    "main.89fed9a5.css.map": "/pieAct/static/css/main.89fed9a5.css.map",
+    "main.58780c23.js.map": "/pieAct/static/js/main.58780c23.js.map",
     "787.b8b4a7f7.chunk.js.map": "/pieAct/static/js/787.b8b4a7f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39bfb606.css",
-    "static/js/main.c48c67a2.js"
+    "static/css/main.89fed9a5.css",
+    "static/js/main.58780c23.js"
   ]
 }
